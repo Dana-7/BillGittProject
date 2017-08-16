@@ -1,0 +1,14 @@
+
+<ol>
+        <table border="1" >
+      <th>Product Name</th> <th>Price</th> <th>Quantity</th> <th>Total Price</th>
+            <div class="leftA" *ngFor="let task of tasks" style="align-content: center">
+          <tr><td>{{task.getName()}}</td><td>{{task.getPrice()}}</td><td>{{task.getQuantity()}}</td>
+          </tr>  
+        </div>
+        <tr><td>Total</td><td colspan="2">Count</td><td>{{getTotalPrice()}}</td><td>{{Tasks.getTotal()}}</td>
+        </tr>  
+      
+      </table>     
+    </ol>
+    
